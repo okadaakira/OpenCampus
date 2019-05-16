@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 824fbd2076bf11948b0a1b22e90d0b48
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000
+  assetHash:
+    serializedVersion: 2
+    Hash: cef18cca0b1bb2c8929a8ad1755e07a5
+  longitude: 139.75
+  latitude: 35.667
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 90.993065, y: 9.464531, z: 38.74241}
+      lookAt: {x: -75.712776, y: -11.793633, z: -13.001234}
+      up: {x: -0.115460135, y: 0.9926654, z: -0.035837546}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: test2
+    100004: test2 1
+    100006: test2 10
+    100008: test2 11
+    100010: test2 12
+    100012: test2 13
+    100014: test2 14
+    100016: test2 15
+    100018: test2 16
+    100020: test2 17
+    100022: test2 18
+    100024: test2 19
+    100026: test2 2
+    100028: test2 20
+    100030: test2 21
+    100032: test2 3
+    100034: test2 4
+    100036: test2 5
+    100038: test2 6
+    100040: test2 7
+    100042: test2 8
+    100044: test2 9
+    100046: test4
+    100048: "\u968E\u6BB5\uFF11"
+    100050: "\u968E\u6BB5\uFF11 1"
+    100052: "\u968E\u6BB5\uFF11 2"
+    400000: //RootNode
+    400002: test2
+    400004: test2 1
+    400006: test2 10
+    400008: test2 11
+    400010: test2 12
+    400012: test2 13
+    400014: test2 14
+    400016: test2 15
+    400018: test2 16
+    400020: test2 17
+    400022: test2 18
+    400024: test2 19
+    400026: test2 2
+    400028: test2 20
+    400030: test2 21
+    400032: test2 3
+    400034: test2 4
+    400036: test2 5
+    400038: test2 6
+    400040: test2 7
+    400042: test2 8
+    400044: test2 9
+    400046: test4
+    400048: "\u968E\u6BB5\uFF11"
+    400050: "\u968E\u6BB5\uFF11 1"
+    400052: "\u968E\u6BB5\uFF11 2"
+    2100000: _defaultMat
+    2100002: '[Color M00]'
+    2100004: '[Translucent Glass Blue]'
+    2100006: '[Color H02]'
+    2100008: '[Color H01]'
+    2300000: //RootNode
+    2300002: test2
+    2300004: test2 1
+    2300006: test2 10
+    2300008: test2 11
+    2300010: test2 12
+    2300012: test2 13
+    2300014: test2 14
+    2300016: test2 15
+    2300018: test2 16
+    2300020: test2 17
+    2300022: test2 18
+    2300024: test2 19
+    2300026: test2 2
+    2300028: test2 20
+    2300030: test2 21
+    2300032: test2 3
+    2300034: test2 4
+    2300036: test2 5
+    2300038: test2 6
+    2300040: test2 7
+    2300042: test2 8
+    2300044: test2 9
+    2300046: test4
+    2300048: "\u968E\u6BB5\uFF11"
+    2300050: "\u968E\u6BB5\uFF11 1"
+    2300052: "\u968E\u6BB5\uFF11 2"
+    3300000: //RootNode
+    3300002: test2
+    3300004: test2 1
+    3300006: test2 10
+    3300008: test2 11
+    3300010: test2 12
+    3300012: test2 13
+    3300014: test2 14
+    3300016: test2 15
+    3300018: test2 16
+    3300020: test2 17
+    3300022: test2 18
+    3300024: test2 19
+    3300026: test2 2
+    3300028: test2 20
+    3300030: test2 21
+    3300032: test2 3
+    3300034: test2 4
+    3300036: test2 5
+    3300038: test2 6
+    3300040: test2 7
+    3300042: test2 8
+    3300044: test2 9
+    3300046: test4
+    3300048: "\u968E\u6BB5\uFF11"
+    3300050: "\u968E\u6BB5\uFF11 1"
+    3300052: "\u968E\u6BB5\uFF11 2"
+    4300000: "Mesh 3\u53F7\u9928 1"
+    4300002: Mesh test2
+    4300004: "Mesh \u968E\u6BB5\uFF11"
+    4300006: Mesh test4
+    4300008: "Mesh 3\u53F7\u9928"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
