@@ -7,9 +7,9 @@ using UnityEditor;
 /// AssetPostprocessorの拡張クラス
 /// </summary>
 
-public class AssetPostporcessorEx : AssetPostprocessor
+public class AssetPostporcessor : AssetPostprocessor
 {
-    private string materialPath = "Assets/Materials/AgentMaterials/";
+    //private string materialPath = "Assets/Materials/AgentMaterials/";
 
     void OnPostprocessTexture(Texture texture)
     {
