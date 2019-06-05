@@ -19,5 +19,11 @@ public class HitogataAnimationController : MonoBehaviour
     void Update()
     {
         animator.SetFloat("Speed", agent.velocity.magnitude);
+
+        // AnimationSpeed調整
+        if (agent.velocity.magnitude > 1.0f)
+            animator.SetFloat("AnimationSpeedWalk", agent.velocity.magnitude / 3.0f);
+        else if (agent.velocity.magnitude > 5.0f)
+            animator.SetFloat("AnimationSpeedRun", agent.velocity.magnitude / 5.0f);
     }
 }

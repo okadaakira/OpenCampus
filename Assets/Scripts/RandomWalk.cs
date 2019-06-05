@@ -3,20 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class AgentBehavior : MonoBehaviour
+public class RandomWalk : MonoBehaviour
 {
     private NavMeshAgent agent;
     public float updateRandomPosInterval = 10.0f;
     private float updateRandomPosTimer;
-    public Transform minRandomMoveDistanceXZ;
-    public Transform maxRandoMoveDistanceXZ;
+
+    private Transform minRandomMoveDistanceXZ;
+    private Transform maxRandoMoveDistanceXZ;
     private Vector3 randomPosition;
 
     // Start is called before the first frame update
     void Start()
     {
+        minRandomMoveDistanceXZ = GameObject.Find("minPos").transform;
+        maxRandoMoveDistanceXZ = GameObject.Find("maxPos").transform;
+
         updateRandomPosTimer = updateRandomPosInterval;
         agent = GetComponent<NavMeshAgent>();
+
         randomPosition = GetRandomPos();
         agent.destination = randomPosition;
     }

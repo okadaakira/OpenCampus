@@ -8,13 +8,14 @@ public class AgentWarp : MonoBehaviour
 {
     private float count = 0.0f;
     public float randomWarpTime = 15.0f;
-    public Transform minRandomMoveDistanceXZ;
-    public Transform maxRandoMoveDistanceXZ;
+    private Transform minRandomMoveDistanceXZ;
+    private Transform maxRandomMoveDistanceXZ;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        minRandomMoveDistanceXZ = GameObject.Find("minPos").transform;
+        maxRandomMoveDistanceXZ = GameObject.Find("maxPos").transform;
     }
 
     // Update is called once per frame
@@ -31,8 +32,8 @@ public class AgentWarp : MonoBehaviour
     public void GetRandomPos()
     {
         // ランダム座標
-        float randomPosX = Random.Range(minRandomMoveDistanceXZ.position.x, maxRandoMoveDistanceXZ.position.z);
-        float randomPosZ = Random.Range(minRandomMoveDistanceXZ.position.x, maxRandoMoveDistanceXZ.position.z);
+        float randomPosX = Random.Range(minRandomMoveDistanceXZ.position.x, maxRandomMoveDistanceXZ.position.z);
+        float randomPosZ = Random.Range(minRandomMoveDistanceXZ.position.x, maxRandomMoveDistanceXZ.position.z);
 
         // NavMesh上の座標を取得
         NavMeshHit hit;

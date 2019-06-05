@@ -7,7 +7,7 @@ using System.IO;
 public class AgentGenerator : MonoBehaviour
 {
     public GameObject prefab;
-    private List<GameObject> gameObjects = new List<GameObject>();
+    public List<GameObject> gameObjects = new List<GameObject>();
     private int texCount;
     private List<string> texsName = new List<string>();
     private string directory = "Assets/Textures/";
@@ -17,24 +17,7 @@ public class AgentGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        texCount = Directory.GetFiles(directory, "*", SearchOption.TopDirectoryOnly).Length / 2;
-        files = di.GetFiles("*.jpg", SearchOption.TopDirectoryOnly);
 
-        if (texCount != gameObjects.Count)
-        {
-            for (int i = gameObjects.Count; i < texCount; i++)
-            {
-                var str = Path.GetFileNameWithoutExtension(files[i].ToString());
-                if (texsName.Contains(str))
-                    continue;
-
-                texsName.Add(str);
-            }
-        }
-
-        foreach (var f in texsName)
-            Debug.Log(f);
-        Debug.Log("fileCount = " + texCount);
     }
 
     // Update is called once per frame
@@ -48,8 +31,20 @@ public class AgentGenerator : MonoBehaviour
 
     void agentGen()
     {
+        texCount = Directory.GetFiles(directory, "*", SearchOption.TopDirectoryOnly).Length / 2; // Textureの数を取得
+        files = di.GetFiles("*.jpg", SearchOption.TopDirectoryOnly);
+
         if (texCount != gameObjects.Count)
         {
+            for (int i = 0; i < texCount; i++)
+            {
+                var str = Path.GetFileNameWithoutExtension(files[i].ToString());
+                if (texsName.Contains(str)) //　名前被り回避
+                    continue;
+
+                texsName.Add(str);
+            }
+
             for (int i = gameObjects.Count; i < texCount; i++)
             {
                 var instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab, gameObject.transform);
