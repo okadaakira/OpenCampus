@@ -75,4 +75,11 @@ public class AgentInitialize : MonoBehaviour
                 break;
         }
     }
+
+    private void Update()
+    {
+        var priority = (agent.velocity.magnitude / 10.0f) * 100;
+        agent.avoidancePriority = (int)priority;
+        Debug.Log((int)priority);
+    }
 }
